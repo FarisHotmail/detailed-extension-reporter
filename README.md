@@ -4,71 +4,71 @@
 [![Chrome Web Store](https://img.shields.io/chrome-web-store/v/abcdefghijklmnopqrstuvwxyzabcdef?label=Chrome%20Web%20Store&color=blue)](https://chrome.google.com/webstore/detail/detailed-extension-report/agcgjmkidgdcefgafabecdnajneekmmm)
 [![Languages](https://img.shields.io/badge/Languages-17-green.svg)](#diller)
 
-`Detailed Extension Reporter`, tarayıcınızda yüklü olan tüm Chrome eklentileri hakkında kapsamlı ve anlaşılır bir rapor sunan, gizlilik odaklı ve açık kaynaklı bir araçtır.
+`Detailed Extension Reporter` is a privacy-focused, open-source tool that provides a comprehensive and insightful report on all Chrome extensions installed in your browser.
 
 ![Eklenti Ekran Görüntüsü](https://lh3.googleusercontent.com/Cc5viyYHGDz0rN3AT1YO6noJB7RFVd4Ha0XvoHd-j3MKS6yJ0zkGEKtrPjZenxfnOQcN9N8x-ORDUE6h6arRtFlkzMA=s800-w800-h500)
 
 ---
 
-## ✨ Özellikler
+## ✨ Features
 
-- **Tüm Eklentileri Listeleme:** Yüklü olan tüm eklentilerinizi tek bir yerde görün.
-- **Detaylı Bilgiler:** Her eklentinin durumunu (Etkin/Devre Dışı), sürüm numarasını, kurulum türünü ve ID'sini anında öğrenin.
-- **İzin Analizi:** Bir eklentinin hangi API (`permissions`) ve web sitesi (`host_permissions`) izinlerine sahip olduğunu net bir şekilde görün.
-- **Hızlı Erişim Linkleri:** Eklentilerin anasayfalarına veya seçenekler sayfalarına tek tıkla ulaşın.
-- **Açık/Koyu Tema:** Göz zevkinize uygun arayüz temasını seçin.
-- **Çoklu Dil Desteği:** 17 farklı dilde arayüz desteği ile eklentiyi kendi dilinizde kullanın.
-
----
-
-## 🛡️ Gizlilik Önceliğimizdir
-
-Bu eklenti, kullanıcı gizliliğine saygı duyma ilkesiyle geliştirilmiştir.
-
-- **Veri Toplama Yok:** Eklenti, kişisel veya tarama verilerinizin **hiçbirini toplamaz, saklamaz veya herhangi bir yere göndermez.**
-- **Yerel Çalışma:** Tüm işlemler, tamamen sizin tarayıcınızın içinde, yerel olarak gerçekleşir.
-- **Minimum İzin:** Eklenti, sadece çalışabilmesi için zorunlu olan minimum izinleri ister:
-    - `management`: Yüklü eklentileri listeleyebilmek için gereklidir.
-    - `storage`: Seçtiğiniz tema ve dil tercihlerinizi kaydetmek için kullanılır.
+- **List All Plugins:** See all your installed plugins in one place.
+- **Detailed Information:** Instantly see the status (Enabled/Disabled), version number, installation type, and ID of each plugin.
+- **Permission Analysis:** Clearly see which API (`permissions`) and website (`host_permissions`) permissions a plugin has.
+- **Quick Access Links:** Access the plugins' homepages or options pages with a single click.
+- **Light/Dark Theme:** Choose the interface theme that suits your taste.
+- **Multilingual Support:** Use the plugin in your language with interface support in 17 different languages.
 
 ---
 
-## 🚀 Kurulum
+## 🛡️ Security
 
-### Seçenek 1: Chrome Web Mağazası (Önerilen)
+This plugin was developed with the principle of respecting user privacy.
 
-En kolay ve güvenli yöntem için eklentiyi resmi Chrome Web Mağazası'ndan yükleyin:
-
-**[>> Mağaza Sayfasına Git <<](https://chrome.google.com/webstore/detail/detailed-extension-report/agcgjmkidgdcefgafabecdnajneekmmm)**
-
-### Seçenek 2: Manuel Kurulum (Geliştiriciler İçin)
-
-1.  Bu deponun en son sürümünü [releases sayfasından](https://github.com/FarisHotmail/detailed-extension-reporter/releases) indirin ve ZIP dosyasını bir klasöre çıkartın.
-2.  Chrome'u açın ve adres çubuğuna `chrome://extensions` yazın.
-3.  Sağ üst köşedeki **"Geliştirici modu"** (Developer mode) seçeneğini aktif hale getirin.
-4.  Sol üstte beliren **"Paketlenmemiş öğe yükle"** (Load unpacked) butonuna tıklayın.
-5.  1. adımda dosyaları çıkarttığınız klasörü seçin. Eklenti listenizde görünecektir.
+- **No Data Collection:** The plugin does not collect, store, or send any of your personal or browsing data anywhere.**
+- **Local Operation:** All processing occurs locally, within your browser.
+- **Minimum Permissions:** The plugin only requests the minimum permissions required for its operation:
+    - `management`: Required to list installed plugins.
+    - `storage`: Used to save your chosen theme and language preferences.
 
 ---
 
-## 🔧 Katkıda Bulunma
+## 🚀 Install
 
-Bu proje tamamen açık kaynaklıdır. Hataları bildirmek, yeni özellikler önermek veya kodla katkıda bulunmak isterseniz çekinmeyin!
+### Option 1: Chrome Web Store (Recommended)
 
-1.  Projeyi "Fork" edin.
-2.  Yeni bir "Branch" oluşturun (`git checkout -b ozellik/yeni-bir-sey`).
-3.  Değişikliklerinizi yapın ve "Commit" edin (`git commit -m 'Yeni bir özellik eklendi'`).
-4.  Oluşturduğunuz Branch'i "Push" edin (`git push origin ozellik/yeni-bir-sey`).
-5.  Bir "Pull Request" (Çekme İsteği) açın.
+For the easiest and safest method, install the extension from the official Chrome Web Store:
+
+**[>> Go to Store Page <<](https://chrome.google.com/webstore/detail/detailed-extension-report/agcgjmkidgdcefgafabecdnajneekmmm)**
+
+### Option 2: Manual Installation (For Developers)
+
+1. Download the latest version of this repository from the [releases page] (https://github.com/FarisHotmail/detailed-extension-reporter/releases) and extract the ZIP file to a folder.
+2. Open Chrome and type `chrome://extensions` in the address bar.
+3. Enable the "Developer mode" option in the top-right corner.
+4. Click the "Load unpacked" button in the top-left corner.
+5. Select the folder where you extracted the files in step 1. It will appear in your add-on list.
 
 ---
 
-## <a id="diller">🌍 Desteklenen Diller</a>
+## 🔧 Contribute
 
-Afrikaans, العربية, Deutsch, English, Español, Français, हिन्दी, Bahasa Indonesia, Italiano, Bahasa Melayu, Português, Русский, ไทย, Tagalog, Türkçe, Tiếng Việt, isiZulu.
+This project is completely open source. Feel free to report bugs, suggest new features, or contribute code!
+
+1. Fork the project.
+2. Create a new branch (`git checkout -b feature/new-something`).
+3. Make your changes and commit (`git commit -m 'Added a new feature'`).
+4. Push the branch you created (`git push origin feature/new-something`).
+5. Open a pull request.
 
 ---
 
-## 📄 Lisans
+## <a id="languages">🌍 Supported Languages</a>
 
-Bu proje [MIT Lisansı](LICENSE) ile lisanslanmıştır.
+Afrikaans, العربية, Deutsch, English, Español, Français, हिन्दी, Bahasa Indonesia, Italiano, Bahasa Melayu, Português, Русский, ไทย, Tagalog, Turkish, Tiếng Việt, isiZulu.
+
+---
+
+## 📄 Licence
+
+This project is licensed under the [MIT License](LICENSE).

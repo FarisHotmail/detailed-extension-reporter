@@ -6,7 +6,7 @@
 
 `Detailed Extension Reporter`, tarayıcınızda yüklü olan tüm Chrome eklentileri hakkında kapsamlı ve anlaşılır bir rapor sunan, gizlilik odaklı ve açık kaynaklı bir araçtır.
 
-![Eklenti Ekran Görüntüsü]([[BURAYA_EKRAN_GÖRÜNTÜSÜ_URL'Sİ_GELECEK]](https://lh3.googleusercontent.com/Cc5viyYHGDz0rN3AT1YO6noJB7RFVd4Ha0XvoHd-j3MKS6yJ0zkGEKtrPjZenxfnOQcN9N8x-ORDUE6h6arRtFlkzMA=s800-w800-h500))
+![Eklenti Ekran Görüntüsü](https://lh3.googleusercontent.com/Cc5viyYHGDz0rN3AT1YO6noJB7RFVd4Ha0XvoHd-j3MKS6yJ0zkGEKtrPjZenxfnOQcN9N8x-ORDUE6h6arRtFlkzMA=s800-w800-h500)
 
 ---
 

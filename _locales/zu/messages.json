@@ -1,0 +1,136 @@
+{
+    "appName": {
+        "message": "I-MyExt - Izandiso Ezifakiwe",
+        "description": "Isihloko esikhulu sohlelo lokusebenza."
+    },
+    "pageTitle": {
+        "message": "Umbiko Wezandiso",
+        "description": "Isihloko sekhasi le-HTML."
+    },
+    "tableHeaderName": {
+        "message": "Igama Lesandiso",
+        "description": "Isihloko sethebula segama lesandiso."
+    },
+    "tableHeaderStatus": {
+        "message": "Isimo",
+        "description": "Isihloko sethebula sesimo sesandiso."
+    },
+    "tableHeaderVersion": {
+        "message": "Inguqulo",
+        "description": "Isihloko sethebula senguqulo yesandiso."
+    },
+    "tableHeaderLinks": {
+        "message": "Izixhumanisi",
+        "description": "Isihloko sethebula sezixhumanisi zekhasi lasekhaya/izinketho."
+    },
+    "loadingData": {
+        "message": "Ilayisha idatha...",
+        "description": "Umbhalo oboniswayo ngenkathi idatha yesandiso ilandwa."
+    },
+    "errorFetch": {
+        "message": "Iphutha: Ayikwazanga ukulanda idatha. Hlola ikhonsoli.",
+        "description": "Umlayezo wephutha uma ukulanda kwehluleka."
+    },
+    "statusEnabled": {
+        "message": "Inikwe amandla",
+        "description": "Umbhalo wesimo wesandiso esinikwe amandla."
+    },
+    "statusDisabled": {
+        "message": "Ikhutshaziwe",
+        "description": "Umbhalo wesimo wesandiso esikhutshaziwe."
+    },
+    "linkHomepage": {
+        "message": "Ikhasi Lasekhaya",
+        "description": "Umbhalo wesixhumanisi wekhasi lasekhaya lesandiso."
+    },
+    "linkOptions": {
+        "message": "Izinketho",
+        "description": "Umbhalo wesixhumanisi wekhasi lezinketho lesandiso."
+    },
+    "yes": {
+        "message": "Yebo",
+        "description": "Inani le-boolean eliyiqiniso."
+    },
+    "no": {
+        "message": "Cha",
+        "description": "Inani le-boolean elingamanga."
+    },
+    "none": {
+        "message": "Akukho",
+        "description": "Kukhombisa ukuthi azikho izinto, isb., azikho izimvume."
+    },
+    "noHostPermissions": {
+        "message": "Azikho izimvume ezithile zomsingathi",
+        "description": "Umbhalo uma kungekho zimvume zomsingathi ezinikeziwe."
+    },
+    "detailsDescription": {
+        "message": "Incazelo",
+        "description": "Ilebula yencazelo ekubukeni kwemininingwane."
+    },
+    "detailsId": {
+        "message": "I-ID",
+        "description": "Ilebula ye-ID yesandiso ekubukeni kwemininingwane."
+    },
+    "detailsPermissions": {
+        "message": "Izimvume",
+        "description": "Ilebula yezimvume ze-API ekubukeni kwemininingwane."
+    },
+    "detailsHostPermissions": {
+        "message": "Izimvume Zomsingathi",
+        "description": "Ilebula yezimvume zomsingathi ekubukeni kwemininingwane."
+    },
+    "detailsInstallType": {
+        "message": "Uhlobo Lokufaka",
+        "description": "Ilebula yohlobo lokufaka ekubukeni kwemininingwane."
+    },
+    "detailsIncognito": {
+        "message": "Ukufinyelela Kwe-Incognito",
+        "description": "Ilebula yokufinyelela kwe-incognito ekubukeni kwemininingwane."
+    },
+    "detailsFileAccess": {
+        "message": "Ukufinyelela Kwe-URL Yefayela",
+        "description": "Ilebula yokufinyelela kwe-URL yefayela ekubukeni kwemininingwane."
+    },
+    "welcomePageTitle": {
+        "message": "Siyakwamukela ku-Detailed Extension Reporter"
+    },
+    "welcomeTitle": {
+        "message": "Siyabonga ngokufaka!"
+    },
+    "welcomeIntro": {
+        "message": "Siyajabula ukuba nawe. Nansi imininingwane ebalulekile mayelana nokuthi lesi sandiso sisebenza kanjani."
+    },
+    "privacyTitle": {
+        "message": "Ubumfihlo Nedatha"
+    },
+    "privacyText": {
+        "message": "Lesi sandiso simahhala ngokuphelele futhi ASIQOQI, sigcine, noma sidlulise noma iyiphi idatha yakho yomuntu siqu. Konke kusebenza endaweni yangakini kusiphequluli sakho."
+    },
+    "permissionsTitle": {
+        "message": "Kungani Lezi Mvume Zidingeka?"
+    },
+    "permissionsIntro": {
+        "message": "Isandiso sicela izimvume ezincane ezidingekayo ukuze sisebenze. Nakhu ukuthi imvume ngayinye isetshenziselwani:"
+    },
+    "managementPermission": {
+        "message": "`management`"
+    },
+    "managementDescription": {
+        "message": "Le mvume iyadingeka ukuze kubalwe zonke izandiso zakho ezifakiwe, kubonwe isimo sazo (sinikwe amandla/sikhutshaziwe), inguqulo, neminye imininingwane. Kungumsebenzi oyinhloko wombiki."
+    },
+    "storagePermission": {
+        "message": "`storage`"
+    },
+    "storageDescription": {
+        "message": "Le mvume isetshenziselwa ukulondoloza izintandokazi zakho, njengengqikithi ekhethiwe (emnyama/ekhanyayo) nolimi olukhethile, ukuze ungadingi ukuzisetha ngaso sonke isikhathi."
+    },
+    "openSourceTitle": {
+        "message": "Umthombo Ovulekile Nokungafihli"
+    },
+    "openSourceText": {
+        "message": "Lesi sandiso singumthombo ovulekile ngokuphelele. Ungabuyekeza ikhodi, ubike izinkinga, noma ufake isandla ekhasini lethu le-GitHub:"
+    },
+    "githubLinkText": {
+        "message": "Indawo yokugcina izinto i-GitHub"
+    }
+}

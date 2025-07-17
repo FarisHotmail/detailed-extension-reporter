@@ -1,0 +1,136 @@
+{
+    "appName": {
+        "message": "MyExt - الإضافات المثبتة",
+        "description": "العنوان الرئيسي للتطبيق."
+    },
+    "pageTitle": {
+        "message": "تقرير الإضافات",
+        "description": "عنوان صفحة HTML."
+    },
+    "tableHeaderName": {
+        "message": "اسم الإضافة",
+        "description": "عنوان جدول لاسم الإضافة."
+    },
+    "tableHeaderStatus": {
+        "message": "الحالة",
+        "description": "عنوان جدول لحالة الإضافة."
+    },
+    "tableHeaderVersion": {
+        "message": "الإصدار",
+        "description": "عنوان جدول لإصدار الإضافة."
+    },
+    "tableHeaderLinks": {
+        "message": "الروابط",
+        "description": "عنوان جدول لروابط الصفحة الرئيسية/الخيارات."
+    },
+    "loadingData": {
+        "message": "جاري تحميل البيانات...",
+        "description": "النص المعروض أثناء جلب بيانات الإضافة."
+    },
+    "errorFetch": {
+        "message": "خطأ: تعذر جلب البيانات. تحقق من وحدة التحكم.",
+        "description": "رسالة خطأ في حالة فشل الجلب."
+    },
+    "statusEnabled": {
+        "message": "مفعلة",
+        "description": "نص الحالة لإضافة مفعلة."
+    },
+    "statusDisabled": {
+        "message": "معطلة",
+        "description": "نص الحالة لإضافة معطلة."
+    },
+    "linkHomepage": {
+        "message": "الصفحة الرئيسية",
+        "description": "نص رابط الصفحة الرئيسية للإضافة."
+    },
+    "linkOptions": {
+        "message": "الخيارات",
+        "description": "نص رابط صفحة خيارات الإضافة."
+    },
+    "yes": {
+        "message": "نعم",
+        "description": "قيمة منطقية صحيحة."
+    },
+    "no": {
+        "message": "لا",
+        "description": "قيمة منطقية خاطئة."
+    },
+    "none": {
+        "message": "لا يوجد",
+        "description": "يشير إلى عدم وجود عناصر، على سبيل المثال، لا توجد أذونات."
+    },
+    "noHostPermissions": {
+        "message": "لا توجد أذونات مضيف محددة",
+        "description": "نص عندما لا يتم منح أذونات المضيف."
+    },
+    "detailsDescription": {
+        "message": "الوصف",
+        "description": "تسمية للوصف في عرض التفاصيل."
+    },
+    "detailsId": {
+        "message": "المعرف",
+        "description": "تسمية لمعرف الإضافة في عرض التفاصيل."
+    },
+    "detailsPermissions": {
+        "message": "الأذونات",
+        "description": "تسمية لأذونات واجهة برمجة التطبيقات في عرض التفاصيل."
+    },
+    "detailsHostPermissions": {
+        "message": "أذونات المضيف",
+        "description": "تسمية لأذونات المضيف في عرض التفاصيل."
+    },
+    "detailsInstallType": {
+        "message": "نوع التثبيت",
+        "description": "تسمية لنوع التثبيت في عرض التفاصيل."
+    },
+    "detailsIncognito": {
+        "message": "الوصول في وضع التصفح المتخفي",
+        "description": "تسمية للوصول في وضع التصفح المتخفي في عرض التفاصيل."
+    },
+    "detailsFileAccess": {
+        "message": "الوصول إلى عنوان URL للملف",
+        "description": "تسمية للوصول إلى عنوان URL للملف في عرض التفاصيل."
+    },
+    "welcomePageTitle": {
+        "message": "مرحباً بك في Detailed Extension Reporter"
+    },
+    "welcomeTitle": {
+        "message": "شكراً لك على التثبيت!"
+    },
+    "welcomeIntro": {
+        "message": "يسعدنا انضمامك إلينا. إليك بعض المعلومات المهمة حول كيفية عمل هذه الإضافة."
+    },
+    "privacyTitle": {
+        "message": "الخصوصية والبيانات"
+    },
+    "privacyText": {
+        "message": "هذه الإضافة مجانية تمامًا ولا تقوم بجمع أو تخزين أو نقل أي من بياناتك الشخصية. كل شيء يعمل محليًا في متصفحك."
+    },
+    "permissionsTitle": {
+        "message": "لماذا هذه الأذونات؟"
+    },
+    "permissionsIntro": {
+        "message": "تطلب الإضافة الحد الأدنى من الأذونات اللازمة للعمل. إليك استخدام كل منها:"
+    },
+    "managementPermission": {
+        "message": "`management`"
+    },
+    "managementDescription": {
+        "message": "هذا الإذن مطلوب لسرد جميع الإضافات المثبتة لديك، ورؤية حالتها (مفعلة/معطلة)، وإصدارها، وتفاصيل أخرى. هذه هي الوظيفة الأساسية للمقرر."
+    },
+    "storagePermission": {
+        "message": "`storage`"
+    },
+    "storageDescription": {
+        "message": "يستخدم هذا الإذن لحفظ تفضيلاتك، مثل المظهر المختار (داكن/فاتح) ولغتك المختارة، حتى لا تضطر إلى تعيينها في كل مرة."
+    },
+    "openSourceTitle": {
+        "message": "المصدر المفتوح والشفافية"
+    },
+    "openSourceText": {
+        "message": "هذه الإضافة مفتوحة المصدر بالكامل. يمكنك مراجعة الكود أو الإبلاغ عن المشكلات أو المساهمة على صفحتنا في GitHub:"
+    },
+    "githubLinkText": {
+        "message": "مستودع GitHub"
+    }
+}

@@ -1,0 +1,136 @@
+{
+    "appName": {
+        "message": "MyExt - Installierte Erweiterungen",
+        "description": "Der Haupttitel der Anwendung."
+    },
+    "pageTitle": {
+        "message": "Erweiterungsbericht",
+        "description": "Der Titel der HTML-Seite."
+    },
+    "tableHeaderName": {
+        "message": "Name der Erweiterung",
+        "description": "Tabellenüberschrift für den Namen der Erweiterung."
+    },
+    "tableHeaderStatus": {
+        "message": "Status",
+        "description": "Tabellenüberschrift für den Status der Erweiterung."
+    },
+    "tableHeaderVersion": {
+        "message": "Version",
+        "description": "Tabellenüberschrift für die Version der Erweiterung."
+    },
+    "tableHeaderLinks": {
+        "message": "Links",
+        "description": "Tabellenüberschrift für Homepage/Optionen-Links."
+    },
+    "loadingData": {
+        "message": "Daten werden geladen...",
+        "description": "Text, der angezeigt wird, während Erweiterungsdaten abgerufen werden."
+    },
+    "errorFetch": {
+        "message": "Fehler: Daten konnten nicht abgerufen werden. Überprüfen Sie die Konsole.",
+        "description": "Fehlermeldung, wenn das Abrufen fehlschlägt."
+    },
+    "statusEnabled": {
+        "message": "Aktiviert",
+        "description": "Statustext für eine aktivierte Erweiterung."
+    },
+    "statusDisabled": {
+        "message": "Deaktiviert",
+        "description": "Statustext für eine deaktivierte Erweiterung."
+    },
+    "linkHomepage": {
+        "message": "Homepage",
+        "description": "Linktext für die Homepage der Erweiterung."
+    },
+    "linkOptions": {
+        "message": "Optionen",
+        "description": "Linktext für die Optionsseite der Erweiterung."
+    },
+    "yes": {
+        "message": "Ja",
+        "description": "Boolescher Wahrheitswert."
+    },
+    "no": {
+        "message": "Nein",
+        "description": "Boolescher Falschwert."
+    },
+    "none": {
+        "message": "Keine",
+        "description": "Zeigt an, dass keine Elemente vorhanden sind, z. B. keine Berechtigungen."
+    },
+    "noHostPermissions": {
+        "message": "Keine spezifischen Host-Berechtigungen",
+        "description": "Text, wenn keine Host-Berechtigungen erteilt wurden."
+    },
+    "detailsDescription": {
+        "message": "Beschreibung",
+        "description": "Bezeichnung für die Beschreibung in der Detailansicht."
+    },
+    "detailsId": {
+        "message": "ID",
+        "description": "Bezeichnung für die Erweiterungs-ID in der Detailansicht."
+    },
+    "detailsPermissions": {
+        "message": "Berechtigungen",
+        "description": "Bezeichnung für API-Berechtigungen in der Detailansicht."
+    },
+    "detailsHostPermissions": {
+        "message": "Host-Berechtigungen",
+        "description": "Bezeichnung für Host-Berechtigungen in der Detailansicht."
+    },
+    "detailsInstallType": {
+        "message": "Installationstyp",
+        "description": "Bezeichnung für den Installationstyp in der Detailansicht."
+    },
+    "detailsIncognito": {
+        "message": "Inkognito-Zugriff",
+        "description": "Bezeichnung für den Inkognito-Zugriff in der Detailansicht."
+    },
+    "detailsFileAccess": {
+        "message": "Dateizugriff-URL",
+        "description": "Bezeichnung für den Dateizugriff-URL in der Detailansicht."
+    },
+    "welcomePageTitle": {
+        "message": "Willkommen bei Detailed Extension Reporter"
+    },
+    "welcomeTitle": {
+        "message": "Danke für die Installation!"
+    },
+    "welcomeIntro": {
+        "message": "Wir freuen uns, Sie bei uns zu haben. Hier sind einige wichtige Informationen zur Funktionsweise dieser Erweiterung."
+    },
+    "privacyTitle": {
+        "message": "Datenschutz & Daten"
+    },
+    "privacyText": {
+        "message": "Diese Erweiterung ist völlig kostenlos und sammelt, speichert oder übermittelt KEINE Ihrer persönlichen Daten. Alles läuft lokal in Ihrem Browser."
+    },
+    "permissionsTitle": {
+        "message": "Warum diese Berechtigungen?"
+    },
+    "permissionsIntro": {
+        "message": "Die Erweiterung fordert die minimal notwendigen Berechtigungen an, um zu funktionieren. Hierfür wird jede verwendet:"
+    },
+    "managementPermission": {
+        "message": "`management`"
+    },
+    "managementDescription": {
+        "message": "Diese Berechtigung ist erforderlich, um alle Ihre installierten Erweiterungen aufzulisten, ihren Status (aktiviert/deaktiviert), ihre Version und andere Details anzuzeigen. Dies ist die Kernfunktionalität des Reporters."
+    },
+    "storagePermission": {
+        "message": "`storage`"
+    },
+    "storageDescription": {
+        "message": "Diese Berechtigung wird verwendet, um Ihre Einstellungen wie das ausgewählte Thema (dunkel/hell) und Ihre gewählte Sprache zu speichern, damit Sie sie nicht jedes Mal neu einstellen müssen."
+    },
+    "openSourceTitle": {
+        "message": "Open Source & Transparenz"
+    },
+    "openSourceText": {
+        "message": "Diese Erweiterung ist vollständig Open Source. Sie können den Code überprüfen, Probleme melden oder auf unserer GitHub-Seite beitragen:"
+    },
+    "githubLinkText": {
+        "message": "GitHub-Repository"
+    }
+}

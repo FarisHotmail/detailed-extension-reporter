@@ -1,0 +1,136 @@
+{
+    "appName": {
+        "message": "MyExt - Tiện ích đã cài đặt",
+        "description": "Tiêu đề chính của ứng dụng."
+    },
+    "pageTitle": {
+        "message": "Báo cáo Tiện ích",
+        "description": "Tiêu đề của trang HTML."
+    },
+    "tableHeaderName": {
+        "message": "Tên Tiện ích",
+        "description": "Tiêu đề bảng cho tên tiện ích."
+    },
+    "tableHeaderStatus": {
+        "message": "Trạng thái",
+        "description": "Tiêu đề bảng cho trạng thái tiện ích."
+    },
+    "tableHeaderVersion": {
+        "message": "Phiên bản",
+        "description": "Tiêu đề bảng cho phiên bản tiện ích."
+    },
+    "tableHeaderLinks": {
+        "message": "Liên kết",
+        "description": "Tiêu đề bảng cho liên kết trang chủ/tùy chọn."
+    },
+    "loadingData": {
+        "message": "Đang tải dữ liệu...",
+        "description": "Văn bản hiển thị trong khi dữ liệu tiện ích đang được tìm nạp."
+    },
+    "errorFetch": {
+        "message": "Lỗi: Không thể tìm nạp dữ liệu. Kiểm tra bảng điều khiển.",
+        "description": "Thông báo lỗi nếu tìm nạp không thành công."
+    },
+    "statusEnabled": {
+        "message": "Đã bật",
+        "description": "Văn bản trạng thái cho một tiện ích đã bật."
+    },
+    "statusDisabled": {
+        "message": "Đã tắt",
+        "description": "Văn bản trạng thái cho một tiện ích đã tắt."
+    },
+    "linkHomepage": {
+        "message": "Trang chủ",
+        "description": "Văn bản liên kết cho trang chủ của tiện ích."
+    },
+    "linkOptions": {
+        "message": "Tùy chọn",
+        "description": "Văn bản liên kết cho trang tùy chọn của tiện ích."
+    },
+    "yes": {
+        "message": "Có",
+        "description": "Giá trị boolean đúng."
+    },
+    "no": {
+        "message": "Không",
+        "description": "Giá trị boolean sai."
+    },
+    "none": {
+        "message": "Không có",
+        "description": "Cho biết không có mục nào, ví dụ: không có quyền."
+    },
+    "noHostPermissions": {
+        "message": "Không có quyền truy cập máy chủ cụ thể",
+        "description": "Văn bản khi không có quyền truy cập máy chủ nào được cấp."
+    },
+    "detailsDescription": {
+        "message": "Mô tả",
+        "description": "Nhãn cho mô tả trong chế độ xem chi tiết."
+    },
+    "detailsId": {
+        "message": "ID",
+        "description": "Nhãn cho ID tiện ích trong chế độ xem chi tiết."
+    },
+    "detailsPermissions": {
+        "message": "Quyền",
+        "description": "Nhãn cho các quyền API trong chế độ xem chi tiết."
+    },
+    "detailsHostPermissions": {
+        "message": "Quyền truy cập máy chủ",
+        "description": "Nhãn cho quyền truy cập máy chủ trong chế độ xem chi tiết."
+    },
+    "detailsInstallType": {
+        "message": "Loại cài đặt",
+        "description": "Nhãn cho loại cài đặt trong chế độ xem chi tiết."
+    },
+    "detailsIncognito": {
+        "message": "Truy cập ẩn danh",
+        "description": "Nhãn cho truy cập ẩn danh trong chế độ xem chi tiết."
+    },
+    "detailsFileAccess": {
+        "message": "Truy cập URL tệp",
+        "description": "Nhãn cho truy cập URL tệp trong chế độ xem chi tiết."
+    },
+    "welcomePageTitle": {
+        "message": "Chào mừng bạn đến với Detailed Extension Reporter"
+    },
+    "welcomeTitle": {
+        "message": "Cảm ơn bạn đã cài đặt!"
+    },
+    "welcomeIntro": {
+        "message": "Chúng tôi rất vui khi có bạn ở đây. Dưới đây là một số thông tin quan trọng về cách hoạt động của tiện ích này."
+    },
+    "privacyTitle": {
+        "message": "Quyền riêng tư & Dữ liệu"
+    },
+    "privacyText": {
+        "message": "Tiện ích này hoàn toàn miễn phí và KHÔNG thu thập, lưu trữ hoặc truyền bất kỳ dữ liệu cá nhân nào của bạn. Mọi thứ đều chạy cục bộ trong trình duyệt của bạn."
+    },
+    "permissionsTitle": {
+        "message": "Tại sao cần những quyền này?"
+    },
+    "permissionsIntro": {
+        "message": "Tiện ích yêu cầu các quyền tối thiểu cần thiết để hoạt động. Đây là mục đích sử dụng của từng quyền:"
+    },
+    "managementPermission": {
+        "message": "`management`"
+    },
+    "managementDescription": {
+        "message": "Quyền này là cần thiết để liệt kê tất cả các tiện ích đã cài đặt của bạn, xem trạng thái của chúng (đã bật/đã tắt), phiên bản và các chi tiết khác. Đó là chức năng cốt lõi của trình báo cáo."
+    },
+    "storagePermission": {
+        "message": "`storage`"
+    },
+    "storageDescription": {
+        "message": "Quyền này được sử dụng để lưu các sở thích của bạn, chẳng hạn như chủ đề đã chọn (tối/sáng) và ngôn ngữ bạn đã chọn, để bạn không phải đặt lại chúng mỗi lần."
+    },
+    "openSourceTitle": {
+        "message": "Mã nguồn mở & Minh bạch"
+    },
+    "openSourceText": {
+        "message": "Tiện ích này hoàn toàn là mã nguồn mở. Bạn có thể xem lại mã, báo cáo sự cố hoặc đóng góp trên trang GitHub của chúng tôi:"
+    },
+    "githubLinkText": {
+        "message": "Kho lưu trữ GitHub"
+    }
+}

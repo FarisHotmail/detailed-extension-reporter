@@ -1,0 +1,136 @@
+{
+    "appName": {
+        "message": "MyExt - Installed Extensions",
+        "description": "The main title of the application."
+    },
+    "pageTitle": {
+        "message": "Extension Report",
+        "description": "The title of the HTML page."
+    },
+    "tableHeaderName": {
+        "message": "Extension Name",
+        "description": "Table header for extension name."
+    },
+    "tableHeaderStatus": {
+        "message": "Status",
+        "description": "Table header for extension status."
+    },
+    "tableHeaderVersion": {
+        "message": "Version",
+        "description": "Table header for extension version."
+    },
+    "tableHeaderLinks": {
+        "message": "Links",
+        "description": "Table header for homepage/options links."
+    },
+    "loadingData": {
+        "message": "Loading data...",
+        "description": "Text shown while extension data is being fetched."
+    },
+    "errorFetch": {
+        "message": "Error: Could not fetch data. Check console.",
+        "description": "Error message if fetching fails."
+    },
+    "statusEnabled": {
+        "message": "Enabled",
+        "description": "Status text for an enabled extension."
+    },
+    "statusDisabled": {
+        "message": "Disabled",
+        "description": "Status text for a disabled extension."
+    },
+    "linkHomepage": {
+        "message": "Homepage",
+        "description": "Link text for the extension's homepage."
+    },
+    "linkOptions": {
+        "message": "Options",
+        "description": "Link text for the extension's options page."
+    },
+    "yes": {
+        "message": "Yes",
+        "description": "Boolean true value."
+    },
+    "no": {
+        "message": "No",
+        "description": "Boolean false value."
+    },
+    "none": {
+        "message": "None",
+        "description": "Indicates no items, e.g., no permissions."
+    },
+    "noHostPermissions": {
+        "message": "No specific host permissions",
+        "description": "Text when no host permissions are granted."
+    },
+    "detailsDescription": {
+        "message": "Description",
+        "description": "Label for description in details view."
+    },
+    "detailsId": {
+        "message": "ID",
+        "description": "Label for extension ID in details view."
+    },
+    "detailsPermissions": {
+        "message": "Permissions",
+        "description": "Label for API permissions in details view."
+    },
+    "detailsHostPermissions": {
+        "message": "Host Permissions",
+        "description": "Label for host permissions in details view."
+    },
+    "detailsInstallType": {
+        "message": "Install Type",
+        "description": "Label for installation type in details view."
+    },
+    "detailsIncognito": {
+        "message": "Incognito Access",
+        "description": "Label for incognito access in details view."
+    },
+    "detailsFileAccess": {
+        "message": "File URL Access",
+        "description": "Label for file URL access in details view."
+    },
+    "welcomePageTitle": {
+        "message": "Welcome to Detailed Extension Reporter"
+    },
+    "welcomeTitle": {
+        "message": "Thank You for Installing!"
+    },
+    "welcomeIntro": {
+        "message": "We are happy to have you. Here is some important information about how this extension works."
+    },
+    "privacyTitle": {
+        "message": "Privacy & Data"
+    },
+    "privacyText": {
+        "message": "This extension is completely free and does NOT collect, store, or transmit any of your personal data. Everything runs locally in your browser."
+    },
+    "permissionsTitle": {
+        "message": "Why These Permissions?"
+    },
+    "permissionsIntro": {
+        "message": "The extension requests the minimum permissions necessary to function. Here's what each is used for:"
+    },
+    "managementPermission": {
+        "message": "`management`"
+    },
+    "managementDescription": {
+        "message": "This permission is required to list all your installed extensions, see their status (enabled/disabled), version, and other details. It's the core functionality of the reporter."
+    },
+    "storagePermission": {
+        "message": "`storage`"
+    },
+    "storageDescription": {
+        "message": "This permission is used to save your preferences, such as the selected theme (dark/light) and your chosen language, so you don't have to set them every time."
+    },
+    "openSourceTitle": {
+        "message": "Open Source & Transparency"
+    },
+    "openSourceText": {
+        "message": "This extension is fully open-source. You can review the code, report issues, or contribute on our GitHub page:"
+    },
+    "githubLinkText": {
+        "message": "GitHub Repository"
+    }
+}

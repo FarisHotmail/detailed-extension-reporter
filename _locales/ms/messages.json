@@ -1,0 +1,136 @@
+{
+    "appName": {
+        "message": "MyExt - Sambungan Dipasang",
+        "description": "Tajuk utama aplikasi."
+    },
+    "pageTitle": {
+        "message": "Laporan Sambungan",
+        "description": "Tajuk halaman HTML."
+    },
+    "tableHeaderName": {
+        "message": "Nama Sambungan",
+        "description": "Pengepala jadual untuk nama sambungan."
+    },
+    "tableHeaderStatus": {
+        "message": "Status",
+        "description": "Pengepala jadual untuk status sambungan."
+    },
+    "tableHeaderVersion": {
+        "message": "Versi",
+        "description": "Pengepala jadual untuk versi sambungan."
+    },
+    "tableHeaderLinks": {
+        "message": "Pautan",
+        "description": "Pengepala jadual untuk pautan laman utama/pilihan."
+    },
+    "loadingData": {
+        "message": "Memuatkan data...",
+        "description": "Teks dipaparkan semasa data sambungan sedang diambil."
+    },
+    "errorFetch": {
+        "message": "Ralat: Tidak dapat mengambil data. Semak konsol.",
+        "description": "Mesej ralat jika pengambilan gagal."
+    },
+    "statusEnabled": {
+        "message": "Didayakan",
+        "description": "Teks status untuk sambungan yang didayakan."
+    },
+    "statusDisabled": {
+        "message": "Dinyahdayakan",
+        "description": "Teks status untuk sambungan yang dinyahdayakan."
+    },
+    "linkHomepage": {
+        "message": "Laman Utama",
+        "description": "Teks pautan untuk laman utama sambungan."
+    },
+    "linkOptions": {
+        "message": "Pilihan",
+        "description": "Teks pautan untuk halaman pilihan sambungan."
+    },
+    "yes": {
+        "message": "Ya",
+        "description": "Nilai boolean benar."
+    },
+    "no": {
+        "message": "Tidak",
+        "description": "Nilai boolean palsu."
+    },
+    "none": {
+        "message": "Tiada",
+        "description": "Menunjukkan tiada item, cth., tiada kebenaran."
+    },
+    "noHostPermissions": {
+        "message": "Tiada kebenaran hos tertentu",
+        "description": "Teks apabila tiada kebenaran hos diberikan."
+    },
+    "detailsDescription": {
+        "message": "Penerangan",
+        "description": "Label untuk penerangan dalam paparan butiran."
+    },
+    "detailsId": {
+        "message": "ID",
+        "description": "Label untuk ID sambungan dalam paparan butiran."
+    },
+    "detailsPermissions": {
+        "message": "Kebenaran",
+        "description": "Label untuk kebenaran API dalam paparan butiran."
+    },
+    "detailsHostPermissions": {
+        "message": "Kebenaran Hos",
+        "description": "Label untuk kebenaran hos dalam paparan butiran."
+    },
+    "detailsInstallType": {
+        "message": "Jenis Pemasangan",
+        "description": "Label untuk jenis pemasangan dalam paparan butiran."
+    },
+    "detailsIncognito": {
+        "message": "Akses Inkognito",
+        "description": "Label untuk akses inkognito dalam paparan butiran."
+    },
+    "detailsFileAccess": {
+        "message": "Akses URL Fail",
+        "description": "Label untuk akses URL fail dalam paparan butiran."
+    },
+    "welcomePageTitle": {
+        "message": "Selamat Datang ke Detailed Extension Reporter"
+    },
+    "welcomeTitle": {
+        "message": "Terima Kasih Kerana Memasang!"
+    },
+    "welcomeIntro": {
+        "message": "Kami gembira anda berada di sini. Berikut adalah beberapa maklumat penting tentang cara sambungan ini berfungsi."
+    },
+    "privacyTitle": {
+        "message": "Privasi & Data"
+    },
+    "privacyText": {
+        "message": "Sambungan ini adalah percuma sepenuhnya dan TIDAK mengumpul, menyimpan, atau menghantar sebarang data peribadi anda. Semuanya berjalan secara tempatan dalam penyemak imbas anda."
+    },
+    "permissionsTitle": {
+        "message": "Mengapa Kebenaran Ini Diperlukan?"
+    },
+    "permissionsIntro": {
+        "message": "Sambungan ini meminta kebenaran minimum yang diperlukan untuk berfungsi. Berikut adalah kegunaan setiap satu:"
+    },
+    "managementPermission": {
+        "message": "`management`"
+    },
+    "managementDescription": {
+        "message": "Kebenaran ini diperlukan untuk menyenaraikan semua sambungan yang dipasang anda, melihat statusnya (didayakan/dinyahdayakan), versi, dan butiran lain. Ia adalah fungsi teras pelapor."
+    },
+    "storagePermission": {
+        "message": "`storage`"
+    },
+    "storageDescription": {
+        "message": "Kebenaran ini digunakan untuk menyimpan pilihan anda, seperti tema yang dipilih (gelap/terang) dan bahasa pilihan anda, supaya anda tidak perlu menetapkannya setiap kali."
+    },
+    "openSourceTitle": {
+        "message": "Sumber Terbuka & Ketelusan"
+    },
+    "openSourceText": {
+        "message": "Sambungan ini adalah sumber terbuka sepenuhnya. Anda boleh menyemak kod, melaporkan isu, atau menyumbang di halaman GitHub kami:"
+    },
+    "githubLinkText": {
+        "message": "Repositori GitHub"
+    }
+}

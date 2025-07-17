@@ -1,0 +1,378 @@
+/* Genel Sayfa Ayarları ve Kutu Modeli */
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 14px;
+}
+
+/* --- POPUP BOYUT VE TEMA DEĞİŞKENLERİ --- */
+body {
+    --bg-color: #ffffff;
+    --text-color: #2c3e50;
+    --header-bg-color: #f8f9fa;
+    --border-color: #e9ecef;
+    --row-hover-bg-color: #f1f3f5;
+    --enabled-color: #27ae60;
+    --disabled-color: #c0392b;
+    --link-bg-color: #d5d5d5;
+    --link-hover-bg-color: #d95050;
+    --link-text-color: #272727;
+
+    /* Boyut ve Genel Stiller */
+    max-width: 800px;
+    max-height: 700px;
+    overflow-y: auto;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    margin: 20px auto;
+    padding: 0;
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    transition: background-color 0.3s, color 0.3s;
+}
+
+/* --- KOYU TEMA AYARLARI --- */
+body.dark-theme {
+    --bg-color: #2d3436;
+    --text-color: #dfe6e9;
+    --header-bg-color: #252a2c;
+    --border-color: #4b5457;
+    --row-hover-bg-color: #3f4649;
+    --enabled-color: #2ecc71;
+    --disabled-color: #e74c3c;
+    --link-bg-color: #4b5457;
+    --link-hover-bg-color: #d95050;
+    --link-text-color: #f4f4f4;
+}
+
+/* --- ÜST BAŞLIK BÖLÜMÜ --- */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 20px;
+    background-color: var(--header-bg-color);
+    border-bottom: 1px solid var(--border-color);
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+h1 {
+	font-size: 1.25rem;
+	margin: 0;
+	margin-left: 10px;
+	flex-grow: 1;
+	}
+
+.controls {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+	}
+	
+	#language-selector {
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    border: 1px solid var(--border-color);
+    border-radius: 5px;
+    padding: 5px 8px;
+    font-size: 0.9rem;
+    cursor: pointer;
+}
+
+#language-selector:focus {
+    outline: 2px solid var(--link-hover-bg-color);
+}
+
+#theme-toggle-button {
+	background: transparent;
+	border: none;
+	font-size: 24px;
+	cursor: pointer;
+	padding: 5px;
+	}
+
+/* --- TABLO TASARIMI --- */
+#extensions-table {
+    width: 100%;
+    border-collapse: collapse;
+    border-spacing: 0;
+	table-layout: auto;
+}
+
+#extensions-table th {
+    background-color: var(--header-bg-color);
+    padding: 12px 15px;
+    text-align: left;
+    font-weight: 600;
+    border-bottom: 2px solid var(--border-color);
+}
+
+#extensions-table tbody tr {
+    border-bottom: 1px solid var(--border-color);
+    transition: background-color 0.2s;
+}
+
+#extensions-table td {
+    padding: 10px 15px;
+    vertical-align: middle;
+}
+
+/* İlk sütun (extension name) için esnek genişlik */
+#extensions-table td:first-child {
+    width: 40%; /* Veya auto */
+    min-width: 250px;
+}
+
+/* Durum sütunu için sabit genişlik */
+#extensions-table td:nth-child(2) {
+    width: 100px; /* Veya auto */
+}
+
+/* Versiyon sütunu için sabit genişlik */
+#extensions-table td:nth-child(3) {
+    width: 80px; /* Veya auto */
+}
+
+/* Linkler sütunu için otomatik genişlik */
+#extensions-table td:last-child {
+    width: auto;
+    text-align: right;
+}
+
+.extension-name-cell span {
+    overflow: visible;
+    text-overflow: clip;
+	white-space: normal;
+}
+
+/* Uzun metinler için ellipsis efekti */
+.extension-name-cell {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+#extensions-table tbody tr:nth-child(even) {
+    background-color: #f8f9fa;
+}
+body.dark-theme #extensions-table tbody tr:nth-child(even) {
+    background-color: #373e40;
+}
+
+#extensions-table tbody tr:hover {
+    background-color: var(--row-hover-bg-color);
+}
+
+#extensions-table td:first-child { align-items: center; gap: 12px; font-weight: 500; }
+.enabled { color: var(--enabled-color); font-weight: bold; }
+.disabled { color: var(--disabled-color); font-weight: bold; }
+
+.permissions-list {
+    max-width: 250px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    cursor: help;
+    font-size: 0.9em;
+    color: #7f8c8d;
+}
+body.dark-theme .permissions-list { color: #95a5a6; }
+
+/* --- LİNKLER VE BUTONLAR (HATALAR DÜZELTİLDİ) --- */
+td.links { text-align: right; display: flex;}
+td.links a, td.links a:link, td.links a:visited {
+    display: inline-block;
+    margin-left: 5px;
+    padding: 6px 12px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 0.9em;
+    font-weight: 500;
+    color: var(--link-text-color);
+    background-color: var(--link-bg-color);
+    transition: background-color 0.2s, transform 0.1s;
+}
+
+td.links a:hover {
+    background-color: var(--link-hover-bg-color);
+    transform: translateY(-1px);
+}
+
+body.dark-theme td.links a, 
+body.dark-theme td.links a:link, 
+body.dark-theme td.links a:visited {
+    color: var(--link-text-color);
+}
+
+/* --- TIKLANABİLİR SATIR VE AKTİF DURUM --- */
+.main-row {
+    cursor: pointer;
+}
+
+.main-row.active {
+    background-color: var(--row-hover-bg-color);
+}
+.main-row.active td:first-child {
+    font-weight: bold;
+}
+
+/* --- DETAY SATIRI STİLLERİ --- */
+.details-row {
+    display: none;
+    background-color: var(--bg-color);
+}
+.details-row.visible {
+    display: table-row;
+}
+.details-row td {
+    padding: 20px 40px;
+    border-bottom: 2px solid var(--border-color);
+}
+
+.details-list {
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-template-columns: max-content 1fr;
+    gap: 10px 20px;
+}
+
+.details-list dt {
+    font-weight: 600;
+    color: var(--text-color);
+    opacity: 0.8;
+}
+
+.details-list dd {
+    margin: 0;
+    word-break: break-all;
+	text-align: left !important;
+}
+
+.details-list dd.code {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: var(--link-bg-color);
+    padding: 2px 6px;
+    border-radius: 4px;
+    font-size: 0.9em;
+}
+
+.details-list dd.note {
+    font-style: italic;
+    opacity: 0.7;
+    grid-column: span 2;
+    margin-top: 10px;
+    border-top: 1px dashed var(--border-color);
+    padding-top: 10px;
+}
+
+[dir="rtl"] .header {
+	flex-direction: row-reverse;
+}
+
+[dir="rtl"] .header h1 {
+    margin-right: auto;
+    margin-left: 0;
+}
+
+[dir="rtl"] #extensions-table th {
+    text-align: right;
+}
+
+[dir="rtl"] #extensions-table td:first-child { 
+    gap: 12px; 
+}
+
+[dir="rtl"] td.links { 
+    text-align: left; 
+}
+
+[dir="rtl"] td.links a {
+    margin-left: 0;
+    margin-right: 5px;
+}
+
+[dir="rtl"] .details-list {
+    grid-template-columns: 1fr max-content;
+}
+
+[dir="rtl"] .details-list dt {
+    text-align: right;
+}
+
+[dir="rtl"] .details-list dd {
+    text-align: right !important;
+}
+
+/* ========================================= */
+/* --- RESPONSIVE TASARIM (MOBİL GÖRÜNÜM) --- */
+/* ========================================= */
+
+@media (max-width: 768px) {
+
+    /* ... (body, header, tablo sıfırlamaları aynı kalabilir) ... */
+    body { margin: 0; width: 100%; }
+    .header { padding: 10px 15px; }
+    h1 {
+		font-size: 1.1rem;
+		flex-grow: 0;
+		}
+    #extensions-table thead { display: none; }
+    #extensions-table, #extensions-table tbody, #extensions-table tr { display: block; width: 100% !important; }
+    #extensions-table tr.main-row { border: 1px solid var(--border-color); border-radius: 8px; margin: 0 15px 15px 15px; overflow: hidden; }
+    #extensions-table tr:nth-child(even), body.dark-theme #extensions-table tr:nth-child(even) { background-color: var(--bg-color); }
+    #extensions-table tr.details-row { display: none; }
+    #extensions-table tr.details-row.visible { display: block; margin: -15px 15px 15px 15px; border: 1px solid var(--border-color); border-top: none; border-radius: 0 0 8px 8px; }
+    #extensions-table tr.main-row.active { margin-bottom: 0; border-bottom-left-radius: 0; border-bottom-right-radius: 0; }
+
+    /* --- DÜZELTME: Hücre (td) ve Etiket (::before) Stilleri --- */
+    #extensions-table td {
+        display: flex;
+        align-items: flex-start;
+        padding: 12px 15px;
+        border-bottom: 1px dashed var(--border-color);
+        gap: 15px;
+        /* justify-content: space-between kaldırıldı */
+    }
+
+    #extensions-table tr.main-row td:last-child {
+        border-bottom: none;
+    }
+
+    #extensions-table td::before {
+        content: attr(data-label);
+        font-weight: 600;
+        color: var(--text-color);
+        opacity: 0.8;
+        flex-shrink: 0; /* Etiketlerin küçülmesini engelle */
+    }
+    
+    /* DÜZELTME: Değerlerin esnek büyümesini ve hizalanmasını sağla */
+    #extensions-table td .value {
+        flex-grow: 1;           /* Kalan tüm boşluğu doldur */
+        text-align: right;      /* İçeriği kendi alanı içinde sağa hizala */
+        /* word-break kaldırıldı, böylece kelimeler bölünmez */
+    }
+
+    /* Özel hücre istisnaları */
+    #extensions-table td.extension-name-cell {
+        align-items: center;
+        gap: 12px;
+    }
+    #extensions-table td.extension-name-cell::before {
+        display: none;
+    }
+    #extensions-table td.links {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 8px;
+    }
+
+    /* Detay alanı için stiller (Aynı kalabilir) */
+    .details-row td { border: none; padding: 0; display: block; }
+    .details-list { display: block; padding: 15px; }
+    .details-list dt { font-weight: 600; opacity: 0.8; }
+    .details-list dd { margin-left: 0; margin-bottom: 12px; word-break: break-all; text-align: left !important; }
+}

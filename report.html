@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="header">
+        <img src="icons/icon48.png" height="24px" id="header-icon" alt="Extension Reporter Icon">
+        <h1 id="app-title"></h1>
+        <div class="controls">
+            <select id="language-selector"></select>
+            <button id="theme-toggle-button">🌙</button>
+        </div>
+    </div>
+
+    <table id="extensions-table">
+        <thead>
+            <tr>
+                <th id="header-name"></th>
+                <th id="header-status"></th>
+                <th id="header-version"></th>
+                <th id="header-links"></th>
+            </tr>
+        </thead>
+        <tbody id="extension-list">
+            <!-- Will be filled by JS -->
+        </tbody>
+    </table>
+    <script src="report.js"></script>
+</body>
+</html>

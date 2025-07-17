@@ -1,0 +1,136 @@
+{
+    "appName": {
+        "message": "MyExt - Yüklü Uzantılar",
+        "description": "Uygulamanın ana başlığı."
+    },
+    "pageTitle": {
+        "message": "Uzantı Raporu",
+        "description": "HTML sayfasının başlığı."
+    },
+    "tableHeaderName": {
+        "message": "Uzantı Adı",
+        "description": "Uzantı adı için tablo başlığı."
+    },
+    "tableHeaderStatus": {
+        "message": "Durum",
+        "description": "Uzantı durumu için tablo başlığı."
+    },
+    "tableHeaderVersion": {
+        "message": "Sürüm",
+        "description": "Uzantı sürümü için tablo başlığı."
+    },
+    "tableHeaderLinks": {
+        "message": "Bağlantılar",
+        "description": "Anasayfa/seçenekler bağlantıları için tablo başlığı."
+    },
+    "loadingData": {
+        "message": "Veriler yükleniyor...",
+        "description": "Uzantı verileri alınırken gösterilen metin."
+    },
+    "errorFetch": {
+        "message": "Hata: Veriler alınamadı. Konsolu kontrol edin.",
+        "description": "Veri alma başarısız olursa hata mesajı."
+    },
+    "statusEnabled": {
+        "message": "Etkin",
+        "description": "Etkin bir uzantı için durum metni."
+    },
+    "statusDisabled": {
+        "message": "Devre Dışı",
+        "description": "Devre dışı bırakılmış bir uzantı için durum metni."
+    },
+    "linkHomepage": {
+        "message": "Anasayfa",
+        "description": "Uzantının anasayfası için bağlantı metni."
+    },
+    "linkOptions": {
+        "message": "Seçenekler",
+        "description": "Uzantının seçenekler sayfası için bağlantı metni."
+    },
+    "yes": {
+        "message": "Evet",
+        "description": "Boolean true değeri."
+    },
+    "no": {
+        "message": "Hayır",
+        "description": "Boolean false değeri."
+    },
+    "none": {
+        "message": "Yok",
+        "description": "Öğe olmadığını belirtir, ör. izin yok."
+    },
+    "noHostPermissions": {
+        "message": "Belirli bir ana makine izni yok",
+        "description": "Ana makine izni verilmediğinde metin."
+    },
+    "detailsDescription": {
+        "message": "Açıklama",
+        "description": "Ayrıntılar görünümünde açıklama etiketi."
+    },
+    "detailsId": {
+        "message": "Kimlik",
+        "description": "Ayrıntılar görünümünde uzantı kimliği etiketi."
+    },
+    "detailsPermissions": {
+        "message": "İzinler",
+        "description": "Ayrıntılar görünümünde API izinleri etiketi."
+    },
+    "detailsHostPermissions": {
+        "message": "Ana Makine İzinleri",
+        "description": "Ayrıntılar görünümünde ana makine izinleri etiketi."
+    },
+    "detailsInstallType": {
+        "message": "Yükleme Türü",
+        "description": "Ayrıntılar görünümünde yükleme türü etiketi."
+    },
+    "detailsIncognito": {
+        "message": "Gizli Mod Erişimi",
+        "description": "Ayrıntılar görünümünde gizli mod erişimi etiketi."
+    },
+    "detailsFileAccess": {
+        "message": "Dosya URL Erişimi",
+        "description": "Ayrıntılar görünümünde dosya URL erişimi etiketi."
+    },
+    "welcomePageTitle": {
+        "message": "Detailed Extension Reporter'a Hoş Geldiniz"
+    },
+    "welcomeTitle": {
+        "message": "Yüklediğiniz İçin Teşekkürler!"
+    },
+    "welcomeIntro": {
+        "message": "Aramıza katıldığınız için mutluyuz. Bu eklentinin nasıl çalıştığı hakkında bazı önemli bilgiler aşağıdadır."
+    },
+    "privacyTitle": {
+        "message": "Gizlilik ve Veri"
+    },
+    "privacyText": {
+        "message": "Bu eklenti tamamen ücretsizdir ve kişisel verilerinizin hiçbirini toplamaz, saklamaz veya başka bir yere göndermez. Her şey yerel olarak tarayıcınızda çalışır."
+    },
+    "permissionsTitle": {
+        "message": "Bu İzinler Neden Gerekli?"
+    },
+    "permissionsIntro": {
+        "message": "Eklenti, çalışabilmesi için gerekli olan minimum izinleri ister. İşte her birinin ne için kullanıldığı:"
+    },
+    "managementPermission": {
+        "message": "`management`"
+    },
+    "managementDescription": {
+        "message": "Bu izin, yüklü tüm uzantılarınızı listelemek, durumlarını (etkin/devre dışı), sürümlerini ve diğer ayrıntılarını görmek için gereklidir. Bu, raporlayıcının temel işlevidir."
+    },
+    "storagePermission": {
+        "message": "`storage`"
+    },
+    "storageDescription": {
+        "message": "Bu izin, seçtiğiniz tema (karanlık/aydınlık) ve dil gibi tercihlerinizi kaydetmek için kullanılır, böylece her seferinde yeniden ayarlamanız gerekmez."
+    },
+    "openSourceTitle": {
+        "message": "Açık Kaynak ve Şeffaflık"
+    },
+    "openSourceText": {
+        "message": "Bu eklenti tamamen açık kaynaklıdır. Kodu inceleyebilir, sorun bildirebilir veya katkıda bulunabilirsiniz. GitHub sayfamız:"
+    },
+    "githubLinkText": {
+        "message": "GitHub Deposu"
+    }
+}

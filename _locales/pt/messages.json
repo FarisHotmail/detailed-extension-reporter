@@ -1,0 +1,136 @@
+{
+    "appName": {
+        "message": "MyExt - Extensões Instaladas",
+        "description": "O título principal da aplicação."
+    },
+    "pageTitle": {
+        "message": "Relatório de Extensões",
+        "description": "O título da página HTML."
+    },
+    "tableHeaderName": {
+        "message": "Nome da Extensão",
+        "description": "Cabeçalho da tabela para o nome da extensão."
+    },
+    "tableHeaderStatus": {
+        "message": "Status",
+        "description": "Cabeçalho da tabela para o status da extensão."
+    },
+    "tableHeaderVersion": {
+        "message": "Versão",
+        "description": "Cabeçalho da tabela para a versão da extensão."
+    },
+    "tableHeaderLinks": {
+        "message": "Links",
+        "description": "Cabeçalho da tabela para links de página inicial/opções."
+    },
+    "loadingData": {
+        "message": "Carregando dados...",
+        "description": "Texto exibido enquanto os dados da extensão estão sendo buscados."
+    },
+    "errorFetch": {
+        "message": "Erro: Não foi possível buscar os dados. Verifique o console.",
+        "description": "Mensagem de erro se a busca falhar."
+    },
+    "statusEnabled": {
+        "message": "Ativada",
+        "description": "Texto de status para uma extensão ativada."
+    },
+    "statusDisabled": {
+        "message": "Desativada",
+        "description": "Texto de status para uma extensão desativada."
+    },
+    "linkHomepage": {
+        "message": "Página Inicial",
+        "description": "Texto do link para a página inicial da extensão."
+    },
+    "linkOptions": {
+        "message": "Opções",
+        "description": "Texto do link para a página de opções da extensão."
+    },
+    "yes": {
+        "message": "Sim",
+        "description": "Valor booleano verdadeiro."
+    },
+    "no": {
+        "message": "Não",
+        "description": "Valor booleano falso."
+    },
+    "none": {
+        "message": "Nenhum",
+        "description": "Indica nenhum item, ex., sem permissões."
+    },
+    "noHostPermissions": {
+        "message": "Nenhuma permissão de host específica",
+        "description": "Texto quando nenhuma permissão de host é concedida."
+    },
+    "detailsDescription": {
+        "message": "Descrição",
+        "description": "Rótulo para descrição na visualização de detalhes."
+    },
+    "detailsId": {
+        "message": "ID",
+        "description": "Rótulo para o ID da extensão na visualização de detalhes."
+    },
+    "detailsPermissions": {
+        "message": "Permissões",
+        "description": "Rótulo para permissões de API na visualização de detalhes."
+    },
+    "detailsHostPermissions": {
+        "message": "Permissões de Host",
+        "description": "Rótulo para permissões de host na visualização de detalhes."
+    },
+    "detailsInstallType": {
+        "message": "Tipo de Instalação",
+        "description": "Rótulo para o tipo de instalação na visualização de detalhes."
+    },
+    "detailsIncognito": {
+        "message": "Acesso Anônimo",
+        "description": "Rótulo para acesso anônimo na visualização de detalhes."
+    },
+    "detailsFileAccess": {
+        "message": "Acesso a URL de Arquivo",
+        "description": "Rótulo para acesso a URL de arquivo na visualização de detalhes."
+    },
+    "welcomePageTitle": {
+        "message": "Bem-vindo ao Detailed Extension Reporter"
+    },
+    "welcomeTitle": {
+        "message": "Obrigado por instalar!"
+    },
+    "welcomeIntro": {
+        "message": "Estamos felizes em tê-lo aqui. Aqui estão algumas informações importantes sobre como esta extensão funciona."
+    },
+    "privacyTitle": {
+        "message": "Privacidade e Dados"
+    },
+    "privacyText": {
+        "message": "Esta extensão é totalmente gratuita e NÃO coleta, armazena ou transmite nenhum dos seus dados pessoais. Tudo é executado localmente no seu navegador."
+    },
+    "permissionsTitle": {
+        "message": "Por que essas permissões?"
+    },
+    "permissionsIntro": {
+        "message": "A extensão solicita as permissões mínimas necessárias para funcionar. Eis para que cada uma é usada:"
+    },
+    "managementPermission": {
+        "message": "`management`"
+    },
+    "managementDescription": {
+        "message": "Esta permissão é necessária para listar todas as suas extensões instaladas, ver seu status (ativado/desativado), versão e outros detalhes. É a funcionalidade principal do relator."
+    },
+    "storagePermission": {
+        "message": "`storage`"
+    },
+    "storageDescription": {
+        "message": "Esta permissão é usada para salvar suas preferências, como o tema selecionado (escuro/claro) e o idioma escolhido, para que você не precise defini-los todas as vezes."
+    },
+    "openSourceTitle": {
+        "message": "Código Aberto e Transparência"
+    },
+    "openSourceText": {
+        "message": "Esta extensão é de código aberto. Você pode revisar o código, relatar problemas ou contribuir em nossa página do GitHub:"
+    },
+    "githubLinkText": {
+        "message": "Repositório do GitHub"
+    }
+}

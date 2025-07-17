@@ -1,0 +1,136 @@
+{
+    "appName": {
+        "message": "MyExt - Estensioni Installate",
+        "description": "Il titolo principale dell'applicazione."
+    },
+    "pageTitle": {
+        "message": "Rapporto Estensioni",
+        "description": "Il titolo della pagina HTML."
+    },
+    "tableHeaderName": {
+        "message": "Nome Estensione",
+        "description": "Intestazione della tabella per il nome dell'estensione."
+    },
+    "tableHeaderStatus": {
+        "message": "Stato",
+        "description": "Intestazione della tabella per lo stato dell'estensione."
+    },
+    "tableHeaderVersion": {
+        "message": "Versione",
+        "description": "Intestazione della tabella per la versione dell'estensione."
+    },
+    "tableHeaderLinks": {
+        "message": "Link",
+        "description": "Intestazione della tabella per i link alla homepage/opzioni."
+    },
+    "loadingData": {
+        "message": "Caricamento dati...",
+        "description": "Testo mostrato durante il recupero dei dati dell'estensione."
+    },
+    "errorFetch": {
+        "message": "Errore: Impossibile recuperare i dati. Controlla la console.",
+        "description": "Messaggio di errore se il recupero fallisce."
+    },
+    "statusEnabled": {
+        "message": "Abilitata",
+        "description": "Testo di stato per un'estensione abilitata."
+    },
+    "statusDisabled": {
+        "message": "Disabilitata",
+        "description": "Testo di stato per un'estensione disabilitata."
+    },
+    "linkHomepage": {
+        "message": "Homepage",
+        "description": "Testo del link per la homepage dell'estensione."
+    },
+    "linkOptions": {
+        "message": "Opzioni",
+        "description": "Testo del link per la pagina delle opzioni dell'estensione."
+    },
+    "yes": {
+        "message": "Sì",
+        "description": "Valore booleano vero."
+    },
+    "no": {
+        "message": "No",
+        "description": "Valore booleano falso."
+    },
+    "none": {
+        "message": "Nessuno",
+        "description": "Indica nessun elemento, ad es. nessun permesso."
+    },
+    "noHostPermissions": {
+        "message": "Nessun permesso host specifico",
+        "description": "Testo quando non sono concessi permessi host."
+    },
+    "detailsDescription": {
+        "message": "Descrizione",
+        "description": "Etichetta per la descrizione nella vista dettagliata."
+    },
+    "detailsId": {
+        "message": "ID",
+        "description": "Etichetta per l'ID dell'estensione nella vista dettagliata."
+    },
+    "detailsPermissions": {
+        "message": "Permessi",
+        "description": "Etichetta per i permessi API nella vista dettagliata."
+    },
+    "detailsHostPermissions": {
+        "message": "Permessi Host",
+        "description": "Etichetta per i permessi host nella vista dettagliata."
+    },
+    "detailsInstallType": {
+        "message": "Tipo di Installazione",
+        "description": "Etichetta per il tipo di installazione nella vista dettagliata."
+    },
+    "detailsIncognito": {
+        "message": "Accesso in Incognito",
+        "description": "Etichetta per l'accesso in incognito nella vista dettagliata."
+    },
+    "detailsFileAccess": {
+        "message": "Accesso URL File",
+        "description": "Etichetta per l'accesso all'URL del file nella vista dettagliata."
+    },
+    "welcomePageTitle": {
+        "message": "Benvenuto in Detailed Extension Reporter"
+    },
+    "welcomeTitle": {
+        "message": "Grazie per l'installazione!"
+    },
+    "welcomeIntro": {
+        "message": "Siamo felici di averti qui. Ecco alcune informazioni importanti su come funziona questa estensione."
+    },
+    "privacyTitle": {
+        "message": "Privacy e Dati"
+    },
+    "privacyText": {
+        "message": "Questa estensione è completamente gratuita e NON raccoglie, archivia o trasmette alcun dato personale. Tutto viene eseguito localmente nel tuo browser."
+    },
+    "permissionsTitle": {
+        "message": "Perché queste autorizzazioni?"
+    },
+    "permissionsIntro": {
+        "message": "L'estensione richiede le autorizzazioni minime necessarie per funzionare. Ecco a cosa serve ciascuna:"
+    },
+    "managementPermission": {
+        "message": "`management`"
+    },
+    "managementDescription": {
+        "message": "Questa autorizzazione è necessaria per elencare tutte le estensioni installate, vederne lo stato (abilitato/disabilitato), la versione e altri dettagli. È la funzionalità principale del reporter."
+    },
+    "storagePermission": {
+        "message": "`storage`"
+    },
+    "storageDescription": {
+        "message": "Questa autorizzazione viene utilizzata per salvare le tue preferenze, come il tema selezionato (scuro/chiaro) e la lingua scelta, in modo da non doverle impostare ogni volta."
+    },
+    "openSourceTitle": {
+        "message": "Open Source e Trasparenza"
+    },
+    "openSourceText": {
+        "message": "Questa estensione è completamente open source. Puoi rivedere il codice, segnalare problemi o contribuire sulla nostra pagina GitHub:"
+    },
+    "githubLinkText": {
+        "message": "Repository GitHub"
+    }
+}

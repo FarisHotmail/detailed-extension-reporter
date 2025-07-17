@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title></title> <!-- JS ile dolacak -->
+    <link rel="stylesheet" href="welcome.style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <img src="icons/icon48.png" alt="Extension Icon">
+            <h1 id="welcome-title"></h1> <!-- JS ile dolacak -->
+        </div>
+        
+        <p class="intro" id="welcome-intro"></p> <!-- JS ile dolacak -->
+
+        <div class="section">
+            <h2 id="privacy-title"></h2> <!-- JS ile dolacak -->
+            <p id="privacy-text"></p> <!-- JS ile dolacak -->
+        </div>
+
+        <div class="section">
+            <h2 id="permissions-title"></h2> <!-- JS ile dolacak -->
+            <p id="permissions-intro"></p> <!-- JS ile dolacak -->
+            <dl>
+                <dt><code>management</code></dt>
+                <dd id="management-description"></dd> <!-- JS ile dolacak -->
+                
+                <dt><code>storage</code></dt>
+                <dd id="storage-description"></dd> <!-- JS ile dolacak -->
+            </dl>
+        </div>
+
+        <div class="section">
+            <h2 id="opensource-title"></h2> <!-- JS ile dolacak -->
+            <p id="opensource-text-container"></p> <!-- JS ile dolacak -->
+        </div>
+
+    </div>
+    <script src="welcome.js"></script> <!-- YENİ EKLENEN SATIR -->
+</body>
+</html>

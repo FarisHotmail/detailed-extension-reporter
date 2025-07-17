@@ -1,0 +1,136 @@
+{
+    "appName": {
+        "message": "MyExt - Mga Naka-install na Extension",
+        "description": "Ang pangunahing pamagat ng aplikasyon."
+    },
+    "pageTitle": {
+        "message": "Ulat ng Extension",
+        "description": "Ang pamagat ng HTML page."
+    },
+    "tableHeaderName": {
+        "message": "Pangalan ng Extension",
+        "description": "Header ng talahanayan para sa pangalan ng extension."
+    },
+    "tableHeaderStatus": {
+        "message": "Katayuan",
+        "description": "Header ng talahanayan para sa katayuan ng extension."
+    },
+    "tableHeaderVersion": {
+        "message": "Bersyon",
+        "description": "Header ng talahanayan para sa bersyon ng extension."
+    },
+    "tableHeaderLinks": {
+        "message": "Mga Link",
+        "description": "Header ng talahanayan para sa mga link ng homepage/opsyon."
+    },
+    "loadingData": {
+        "message": "Nilo-load ang data...",
+        "description": "Tekstong ipinapakita habang kinukuha ang data ng extension."
+    },
+    "errorFetch": {
+        "message": "Error: Hindi makuha ang data. Suriin ang console.",
+        "description": "Mensahe ng error kung nabigo ang pagkuha."
+    },
+    "statusEnabled": {
+        "message": "Pinagana",
+        "description": "Teksto ng katayuan para sa isang pinaganang extension."
+    },
+    "statusDisabled": {
+        "message": "Hindi pinagana",
+        "description": "Teksto ng katayuan para sa isang hindi pinaganang extension."
+    },
+    "linkHomepage": {
+        "message": "Homepage",
+        "description": "Teksto ng link para sa homepage ng extension."
+    },
+    "linkOptions": {
+        "message": "Mga Pagpipilian",
+        "description": "Teksto ng link para sa pahina ng mga pagpipilian ng extension."
+    },
+    "yes": {
+        "message": "Oo",
+        "description": "Boolean true value."
+    },
+    "no": {
+        "message": "Hindi",
+        "description": "Boolean false value."
+    },
+    "none": {
+        "message": "Wala",
+        "description": "Nagsasaad na walang mga item, hal., walang mga pahintulot."
+    },
+    "noHostPermissions": {
+        "message": "Walang mga tiyak na pahintulot sa host",
+        "description": "Teksto kapag walang mga pahintulot sa host na ipinagkaloob."
+    },
+    "detailsDescription": {
+        "message": "Paglalarawan",
+        "description": "Label para sa paglalarawan sa view ng mga detalye."
+    },
+    "detailsId": {
+        "message": "ID",
+        "description": "Label para sa ID ng extension sa view ng mga detalye."
+    },
+    "detailsPermissions": {
+        "message": "Mga Pahintulot",
+        "description": "Label para sa mga pahintulot ng API sa view ng mga detalye."
+    },
+    "detailsHostPermissions": {
+        "message": "Mga Pahintulot sa Host",
+        "description": "Label para sa mga pahintulot sa host sa view ng mga detalye."
+    },
+    "detailsInstallType": {
+        "message": "Uri ng Pag-install",
+        "description": "Label para sa uri ng pag-install sa view ng mga detalye."
+    },
+    "detailsIncognito": {
+        "message": "Access sa Incognito",
+        "description": "Label para sa access sa incognito sa view ng mga detalye."
+    },
+    "detailsFileAccess": {
+        "message": "Access sa File URL",
+        "description": "Label para sa access sa file URL sa view ng mga detalye."
+    },
+    "welcomePageTitle": {
+        "message": "Maligayang pagdating sa Detailed Extension Reporter"
+    },
+    "welcomeTitle": {
+        "message": "Salamat sa Pag-install!"
+    },
+    "welcomeIntro": {
+        "message": "Ikinagagalak naming makasama ka. Narito ang ilang mahalagang impormasyon kung paano gumagana ang extension na ito."
+    },
+    "privacyTitle": {
+        "message": "Privacy at Data"
+    },
+    "privacyText": {
+        "message": "Ang extension na ito ay libre at HINDI nangongolekta, nag-iimbak, o nagpapadala ng anuman sa iyong personal na data. Lahat ay tumatakbo nang lokal sa iyong browser."
+    },
+    "permissionsTitle": {
+        "message": "Bakit kailangan ang mga Pahintulot na ito?"
+    },
+    "permissionsIntro": {
+        "message": "Hinihiling ng extension ang pinakamababang kinakailangang pahintulot para gumana. Narito kung para saan ginagamit ang bawat isa:"
+    },
+    "managementPermission": {
+        "message": "`management`"
+    },
+    "managementDescription": {
+        "message": "Ang pahintulot na ito ay kinakailangan upang ilista ang lahat ng iyong naka-install na extension, tingnan ang kanilang status (pinagana/hindi pinagana), bersyon, at iba pang mga detalye. Ito ang pangunahing pag-andar ng tagapag-ulat."
+    },
+    "storagePermission": {
+        "message": "`storage`"
+    },
+    "storageDescription": {
+        "message": "Ang pahintulot na ito ay ginagamit upang i-save ang iyong mga kagustuhan, tulad ng napiling tema (madilim/maliwanag) at ang iyong napiling wika, upang hindi mo na kailangang i-set ang mga ito sa tuwing."
+    },
+    "openSourceTitle": {
+        "message": "Open Source at Transparency"
+    },
+    "openSourceText": {
+        "message": "Ang extension na ito ay ganap na open-source. Maaari mong suriin ang code, iulat ang mga isyu, o mag-ambag sa aming pahina sa GitHub:"
+    },
+    "githubLinkText": {
+        "message": "Imbakan ng GitHub"
+    }
+}

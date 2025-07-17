@@ -1,0 +1,136 @@
+{
+    "appName": {
+        "message": "MyExt - Geïnstalleerde Uitbreidings",
+        "description": "Die hooftitel van die toepassing."
+    },
+    "pageTitle": {
+        "message": "Uitbreidingsverslag",
+        "description": "Die titel van die HTML-bladsy."
+    },
+    "tableHeaderName": {
+        "message": "Uitbreidingsnaam",
+        "description": "Tabelkop vir uitbreidingsnaam."
+    },
+    "tableHeaderStatus": {
+        "message": "Status",
+        "description": "Tabelkop vir uitbreidingstatus."
+    },
+    "tableHeaderVersion": {
+        "message": "Weergawe",
+        "description": "Tabelkop vir uitbreidingsweergawe."
+    },
+    "tableHeaderLinks": {
+        "message": "Skakels",
+        "description": "Tabelkop vir tuisblad/opsies-skakels."
+    },
+    "loadingData": {
+        "message": "Laai data...",
+        "description": "Teks wat gewys word terwyl uitbreidingsdata gehaal word."
+    },
+    "errorFetch": {
+        "message": "Fout: Kon nie data haal nie. Gaan konsole na.",
+        "description": "Foutboodskap as datahaling misluk."
+    },
+    "statusEnabled": {
+        "message": "Geaktiveer",
+        "description": "Statusteks vir 'n geaktiveerde uitbreiding."
+    },
+    "statusDisabled": {
+        "message": "Gedeaktiveer",
+        "description": "Statusteks vir 'n gedeaktiveerde uitbreiding."
+    },
+    "linkHomepage": {
+        "message": "Tuisblad",
+        "description": "Skakelteks vir die uitbreiding se tuisblad."
+    },
+    "linkOptions": {
+        "message": "Opsies",
+        "description": "Skakelteks vir die uitbreiding se opsiesbladsy."
+    },
+    "yes": {
+        "message": "Ja",
+        "description": "Booleaanse ware waarde."
+    },
+    "no": {
+        "message": "Nee",
+        "description": "Booleaanse valse waarde."
+    },
+    "none": {
+        "message": "Geen",
+        "description": "Dui aan geen items, bv. geen toestemmings."
+    },
+    "noHostPermissions": {
+        "message": "Geen spesifieke gasheertoestemmings nie",
+        "description": "Teks wanneer geen gasheertoestemmings toegestaan is nie."
+    },
+    "detailsDescription": {
+        "message": "Beskrywing",
+        "description": "Etiket vir beskrywing in detailaansig."
+    },
+    "detailsId": {
+        "message": "ID",
+        "description": "Etiket vir uitbreidings-ID in detailaansig."
+    },
+    "detailsPermissions": {
+        "message": "Toestemmings",
+        "description": "Etiket vir API-toestemmings in detailaansig."
+    },
+    "detailsHostPermissions": {
+        "message": "Gasheertoestemmings",
+        "description": "Etiket vir gasheertoestemmings in detailaansig."
+    },
+    "detailsInstallType": {
+        "message": "Installasietipe",
+        "description": "Etiket vir installasietipe in detailaansig."
+    },
+    "detailsIncognito": {
+        "message": "Incognito-toegang",
+        "description": "Etiket vir incognito-toegang in detailaansig."
+    },
+    "detailsFileAccess": {
+        "message": "Lêer-URL-toegang",
+        "description": "Etiket vir lêer-URL-toegang in detailaansig."
+    },
+    "welcomePageTitle": {
+        "message": "Welkom by Detailed Extension Reporter"
+    },
+    "welcomeTitle": {
+        "message": "Dankie vir die installering!"
+    },
+    "welcomeIntro": {
+        "message": "Ons is bly om jou hier te hê. Hier is 'n paar belangrike inligting oor hoe hierdie uitbreiding werk."
+    },
+    "privacyTitle": {
+        "message": "Privaatheid & Data"
+    },
+    "privacyText": {
+        "message": "Hierdie uitbreiding is heeltemal gratis en samel GEEN persoonlike data in, stoor dit nie, of stuur dit nie aan nie. Alles loop plaaslik in jou blaaier."
+    },
+    "permissionsTitle": {
+        "message": "Waarom hierdie Toestemmings?"
+    },
+    "permissionsIntro": {
+        "message": "Die uitbreiding versoek die minimum nodige toestemmings om te funksioneer. Hier is waarvoor elkeen gebruik word:"
+    },
+    "managementPermission": {
+        "message": "`management`"
+    },
+    "managementDescription": {
+        "message": "Hierdie toestemming is nodig om al jou geïnstalleerde uitbreidings te lys, hul status (geaktiveer/gedeaktiveer), weergawe en ander besonderhede te sien. Dit is die kernfunksionaliteit van die verslaggewer."
+    },
+    "storagePermission": {
+        "message": "`storage`"
+    },
+    "storageDescription": {
+        "message": "Hierdie toestemming word gebruik om jou voorkeure te stoor, soos die gekose tema (donker/lig) en jou gekose taal, sodat jy dit nie elke keer hoef in te stel nie."
+    },
+    "openSourceTitle": {
+        "message": "Oopbron & Deursigtigheid"
+    },
+    "openSourceText": {
+        "message": "Hierdie uitbreiding is ten volle oopbron. Jy kan die kode hersien, probleme rapporteer, of bydra op ons GitHub-bladsy:"
+    },
+    "githubLinkText": {
+        "message": "GitHub-bewaarplek"
+    }
+}

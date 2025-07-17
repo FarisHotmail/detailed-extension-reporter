@@ -1,0 +1,136 @@
+{
+    "appName": {
+        "message": "MyExt - Ekstensi Terpasang",
+        "description": "Judul utama aplikasi."
+    },
+    "pageTitle": {
+        "message": "Laporan Ekstensi",
+        "description": "Judul halaman HTML."
+    },
+    "tableHeaderName": {
+        "message": "Nama Ekstensi",
+        "description": "Header tabel untuk nama ekstensi."
+    },
+    "tableHeaderStatus": {
+        "message": "Status",
+        "description": "Header tabel untuk status ekstensi."
+    },
+    "tableHeaderVersion": {
+        "message": "Versi",
+        "description": "Header tabel untuk versi ekstensi."
+    },
+    "tableHeaderLinks": {
+        "message": "Tautan",
+        "description": "Header tabel untuk tautan beranda/opsi."
+    },
+    "loadingData": {
+        "message": "Memuat data...",
+        "description": "Teks yang ditampilkan saat data ekstensi sedang diambil."
+    },
+    "errorFetch": {
+        "message": "Kesalahan: Tidak dapat mengambil data. Periksa konsol.",
+        "description": "Pesan kesalahan jika pengambilan gagal."
+    },
+    "statusEnabled": {
+        "message": "Diaktifkan",
+        "description": "Teks status untuk ekstensi yang diaktifkan."
+    },
+    "statusDisabled": {
+        "message": "Dinonaktifkan",
+        "description": "Teks status untuk ekstensi yang dinonaktifkan."
+    },
+    "linkHomepage": {
+        "message": "Beranda",
+        "description": "Teks tautan untuk beranda ekstensi."
+    },
+    "linkOptions": {
+        "message": "Opsi",
+        "description": "Teks tautan untuk halaman opsi ekstensi."
+    },
+    "yes": {
+        "message": "Ya",
+        "description": "Nilai boolean benar."
+    },
+    "no": {
+        "message": "Tidak",
+        "description": "Nilai boolean salah."
+    },
+    "none": {
+        "message": "Tidak ada",
+        "description": "Menunjukkan tidak ada item, mis., tidak ada izin."
+    },
+    "noHostPermissions": {
+        "message": "Tidak ada izin host spesifik",
+        "description": "Teks ketika tidak ada izin host yang diberikan."
+    },
+    "detailsDescription": {
+        "message": "Deskripsi",
+        "description": "Label untuk deskripsi dalam tampilan detail."
+    },
+    "detailsId": {
+        "message": "ID",
+        "description": "Label untuk ID ekstensi dalam tampilan detail."
+    },
+    "detailsPermissions": {
+        "message": "Izin",
+        "description": "Label untuk izin API dalam tampilan detail."
+    },
+    "detailsHostPermissions": {
+        "message": "Izin Host",
+        "description": "Label untuk izin host dalam tampilan detail."
+    },
+    "detailsInstallType": {
+        "message": "Jenis Instalasi",
+        "description": "Label untuk jenis instalasi dalam tampilan detail."
+    },
+    "detailsIncognito": {
+        "message": "Akses Penyamaran",
+        "description": "Label untuk akses penyamaran dalam tampilan detail."
+    },
+    "detailsFileAccess": {
+        "message": "Akses URL File",
+        "description": "Label untuk akses URL file dalam tampilan detail."
+    },
+    "welcomePageTitle": {
+        "message": "Selamat Datang di Detailed Extension Reporter"
+    },
+    "welcomeTitle": {
+        "message": "Terima Kasih telah Menginstal!"
+    },
+    "welcomeIntro": {
+        "message": "Kami senang Anda bergabung. Berikut adalah beberapa informasi penting tentang cara kerja ekstensi ini."
+    },
+    "privacyTitle": {
+        "message": "Privasi & Data"
+    },
+    "privacyText": {
+        "message": "Ekstensi ini sepenuhnya gratis dan TIDAK mengumpulkan, menyimpan, atau mengirimkan data pribadi Anda. Semuanya berjalan secara lokal di browser Anda."
+    },
+    "permissionsTitle": {
+        "message": "Mengapa Izin Ini Diperlukan?"
+    },
+    "permissionsIntro": {
+        "message": "Ekstensi ini meminta izin minimum yang diperlukan untuk berfungsi. Inilah kegunaan masing-masing:"
+    },
+    "managementPermission": {
+        "message": "`management`"
+    },
+    "managementDescription": {
+        "message": "Izin ini diperlukan untuk mendaftar semua ekstensi yang terpasang, melihat statusnya (aktif/nonaktif), versi, dan detail lainnya. Ini adalah fungsionalitas inti dari pelapor."
+    },
+    "storagePermission": {
+        "message": "`storage`"
+    },
+    "storageDescription": {
+        "message": "Izin ini digunakan untuk menyimpan preferensi Anda, seperti tema yang dipilih (gelap/terang) dan bahasa pilihan Anda, sehingga Anda tidak perlu mengaturnya setiap saat."
+    },
+    "openSourceTitle": {
+        "message": "Sumber Terbuka & Transparansi"
+    },
+    "openSourceText": {
+        "message": "Ekstensi ini sepenuhnya sumber terbuka. Anda dapat meninjau kode, melaporkan masalah, atau berkontribusi di halaman GitHub kami:"
+    },
+    "githubLinkText": {
+        "message": "Repositori GitHub"
+    }
+}

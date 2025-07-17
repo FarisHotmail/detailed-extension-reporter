@@ -69,7 +69,7 @@ Afrikaans, العربية, Deutsch, English, Español, Français, हिन्�
 
 ---
 
-## ✨ Who am I?
+## ℹ️ Who am I?
 
 - **Am I a software engineer?** No. I don't know any programming languages other than C# (at a very low level).
 - **What is my job?** I'm an IT worker.

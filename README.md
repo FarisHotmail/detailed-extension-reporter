@@ -6,11 +6,7 @@
 
 `Detailed Extension Reporter`, tarayıcınızda yüklü olan tüm Chrome eklentileri hakkında kapsamlı ve anlaşılır bir rapor sunan, gizlilik odaklı ve açık kaynaklı bir araçtır.
 
-![Eklenti Ekran Görüntüsü]
-(https://lh3.googleusercontent.com/Cc5viyYHGDz0rN3AT1YO6noJB7RFVd4Ha0XvoHd-j3MKS6yJ0zkGEKtrPjZenxfnOQcN9N8x-ORDUE6h6arRtFlkzMA=s800-w800-h500)
-(https://lh3.googleusercontent.com/ikWMGxBuj0czy_CdltejoewuwxTR3U8pA2I6_rCKF8EkXzVZpBhGYKzdGNPAXYhju-IDqVFPDlmixNaybB513FssOA=s1280-w1280-h800)
-(https://lh3.googleusercontent.com/rI-8ManADTlRgC6G_x1lxKr1ZTsHMtYBaZOhTTLxaCquM5-9QW9gvFzcwqSAUJ9h_DRVFnVjKZqOhk7eCECZiXfzQA=s1280-w1280-h800)
-(https://lh3.googleusercontent.com/ZtT-rA6TUgZc2uJU9VO36lhviTsps5_k4psS-0o5hMJQmzMxCpacUaCm6O2I3z_gBVM2d1ldQMPDRlee3mi4KQhOig=s1280-w1280-h800)
+![Eklenti Ekran Görüntüsü](https://lh3.googleusercontent.com/Cc5viyYHGDz0rN3AT1YO6noJB7RFVd4Ha0XvoHd-j3MKS6yJ0zkGEKtrPjZenxfnOQcN9N8x-ORDUE6h6arRtFlkzMA=s800-w800-h500)(https://lh3.googleusercontent.com/ikWMGxBuj0czy_CdltejoewuwxTR3U8pA2I6_rCKF8EkXzVZpBhGYKzdGNPAXYhju-IDqVFPDlmixNaybB513FssOA=s1280-w1280-h800)(https://lh3.googleusercontent.com/rI-8ManADTlRgC6G_x1lxKr1ZTsHMtYBaZOhTTLxaCquM5-9QW9gvFzcwqSAUJ9h_DRVFnVjKZqOhk7eCECZiXfzQA=s1280-w1280-h800)(https://lh3.googleusercontent.com/ZtT-rA6TUgZc2uJU9VO36lhviTsps5_k4psS-0o5hMJQmzMxCpacUaCm6O2I3z_gBVM2d1ldQMPDRlee3mi4KQhOig=s1280-w1280-h800)
 ---
 
 ## ✨ Özellikler

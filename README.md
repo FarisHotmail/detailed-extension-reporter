@@ -6,7 +6,8 @@
 
 `Detailed Extension Reporter`, tarayıcınızda yüklü olan tüm Chrome eklentileri hakkında kapsamlı ve anlaşılır bir rapor sunan, gizlilik odaklı ve açık kaynaklı bir araçtır.
 
-![Eklenti Ekran Görüntüsü](https://lh3.googleusercontent.com/Cc5viyYHGDz0rN3AT1YO6noJB7RFVd4Ha0XvoHd-j3MKS6yJ0zkGEKtrPjZenxfnOQcN9N8x-ORDUE6h6arRtFlkzMA=s800-w800-h500)(https://lh3.googleusercontent.com/ikWMGxBuj0czy_CdltejoewuwxTR3U8pA2I6_rCKF8EkXzVZpBhGYKzdGNPAXYhju-IDqVFPDlmixNaybB513FssOA=s1280-w1280-h800)(https://lh3.googleusercontent.com/rI-8ManADTlRgC6G_x1lxKr1ZTsHMtYBaZOhTTLxaCquM5-9QW9gvFzcwqSAUJ9h_DRVFnVjKZqOhk7eCECZiXfzQA=s1280-w1280-h800)(https://lh3.googleusercontent.com/ZtT-rA6TUgZc2uJU9VO36lhviTsps5_k4psS-0o5hMJQmzMxCpacUaCm6O2I3z_gBVM2d1ldQMPDRlee3mi4KQhOig=s1280-w1280-h800)
+![Eklenti Ekran Görüntüsü](https://lh3.googleusercontent.com/Cc5viyYHGDz0rN3AT1YO6noJB7RFVd4Ha0XvoHd-j3MKS6yJ0zkGEKtrPjZenxfnOQcN9N8x-ORDUE6h6arRtFlkzMA=s800-w800-h500)
+
 ---
 
 ## ✨ Özellikler
@@ -38,11 +39,11 @@ Bu eklenti, kullanıcı gizliliğine saygı duyma ilkesiyle geliştirilmiştir.
 
 En kolay ve güvenli yöntem için eklentiyi resmi Chrome Web Mağazası'ndan yükleyin:
 
-**[>> Mağaza Sayfasına Git <<](https://chrome.google.com/webstore/detail/detailed-extension-report/[BURAYA_CHROME_WEB_MAĞAZASI_KİMLİĞİ_GELECEK])**
+**[>> Mağaza Sayfasına Git <<](https://chrome.google.com/webstore/detail/detailed-extension-report/agcgjmkidgdcefgafabecdnajneekmmm)**
 
 ### Seçenek 2: Manuel Kurulum (Geliştiriciler İçin)
 
-1.  Bu deponun en son sürümünü [releases sayfasından]([GITHUB_DEPO_URL]/releases) indirin ve ZIP dosyasını bir klasöre çıkartın.
+1.  Bu deponun en son sürümünü [releases sayfasından](https://github.com/FarisHotmail/detailed-extension-reporter/releases) indirin ve ZIP dosyasını bir klasöre çıkartın.
 2.  Chrome'u açın ve adres çubuğuna `chrome://extensions` yazın.
 3.  Sağ üst köşedeki **"Geliştirici modu"** (Developer mode) seçeneğini aktif hale getirin.
 4.  Sol üstte beliren **"Paketlenmemiş öğe yükle"** (Load unpacked) butonuna tıklayın.

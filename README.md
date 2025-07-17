@@ -69,6 +69,16 @@ Afrikaans, العربية, Deutsch, English, Español, Français, हिन्�
 
 ---
 
+## ✨ Who am I?
+
+- **Am I a software engineer?** No. I don't know any programming languages other than C# (at a very low level).
+- **What is my job?** I'm an IT worker.
+- **How do I do this and other projects without knowing any programming languages?** I'm outsourcing this and other projects (90% for this project) to artificial intelligence.
+- **What is the purpose of this and other projects?** There are two reasons. I want to share projects I've made based on my own needs and how easy/difficult it is to develop software with artificial intelligence.
+- **Do you plan to update the projects?** Since most of the projects meet my needs, I'm planning to develop them.
+
+---
+
 ## 📄 Licence
 
 This project is licensed under the [MIT License](LICENSE).

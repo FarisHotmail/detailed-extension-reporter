@@ -1,11 +1,9 @@
 document.addEventListener('DOMContentLoaded', async () => {
-    let translations = {}; // Çevirileri burada sakla
+    let translations = {};
 
-    // --- YARDIMCI FONKSİYONLAR ---
     const getLangFromURL = () => new URLSearchParams(window.location.search).get('lang');
-    const _ = (key) => translations[key] || key; // Kendi çeviri fonksiyonum
+    const _ = (key) => translations[key] || key;
 
-    // --- DİL YÜKLEME FONKSİYONU ---
     const loadTranslations = async (lang) => {
         try {
             const url = chrome.runtime.getURL(`_locales/${lang}/messages.json`);
@@ -13,20 +11,17 @@ document.addEventListener('DOMContentLoaded', async () => {
             if (!response.ok) throw new Error('Network response was not ok');
             const messages = await response.json();
             
-            // messages.json formatını { "key": "message" } şekline dönüştür
             for (const key in messages) {
                 translations[key] = messages[key].message;
             }
         } catch (error) {
             console.error(`Could not load translations for ${lang}, falling back to 'en'`, error);
-            // İngilizce yüklenemezse, en azından anahtarları göster
             if (lang !== 'en') {
                 await loadTranslations('en');
             }
         }
     };
 
-    // --- SAYFA YÜKLENİRKEN İLK KONTROL VE YÖNLENDİRME ---
     const urlLang = getLangFromURL();
     const { language: savedLang } = await chrome.storage.local.get('language');
     const browserLang = navigator.language.split('-')[0];
@@ -34,13 +29,11 @@ document.addEventListener('DOMContentLoaded', async () => {
 
     if (urlLang !== targetLang) {
         window.location.href = `report.html?lang=${targetLang}`;
-        return; // Yönlendirme sonrası script'i durdur.
+        return;
     }
 
-    // --- ÇEVİRİLERİ YÜKLE ---
     await loadTranslations(targetLang);
 
-    // --- SAYFA ARAYÜZÜNÜ KUR ---
     const themeToggleButton = document.getElementById('theme-toggle-button');
     const tableBody = document.getElementById('extension-list');
     const languageSelector = document.getElementById('language-selector');

@@ -1,4 +1,3 @@
-/* Genel Sayfa Ayarları ve Kutu Modeli */
 *, *::before, *::after {
     box-sizing: border-box;
 }
@@ -7,7 +6,6 @@ html {
     font-size: 14px;
 }
 
-/* --- POPUP BOYUT VE TEMA DEĞİŞKENLERİ --- */
 body {
     --bg-color: #ffffff;
     --text-color: #2c3e50;
@@ -20,7 +18,6 @@ body {
     --link-hover-bg-color: #d95050;
     --link-text-color: #272727;
 
-    /* Boyut ve Genel Stiller */
     max-width: 800px;
     max-height: 700px;
     overflow-y: auto;
@@ -32,7 +29,6 @@ body {
     transition: background-color 0.3s, color 0.3s;
 }
 
-/* --- KOYU TEMA AYARLARI --- */
 body.dark-theme {
     --bg-color: #2d3436;
     --text-color: #dfe6e9;
@@ -46,7 +42,6 @@ body.dark-theme {
     --link-text-color: #f4f4f4;
 }
 
-/* --- ÜST BAŞLIK BÖLÜMÜ --- */
 .header {
     display: flex;
     justify-content: space-between;
@@ -94,12 +89,11 @@ h1 {
 	padding: 5px;
 	}
 
-/* --- TABLO TASARIMI --- */
 #extensions-table {
     width: 100%;
     border-collapse: collapse;
     border-spacing: 0;
-	table-layout: auto;
+    table-layout: auto;
 }
 
 #extensions-table th {
@@ -120,23 +114,19 @@ h1 {
     vertical-align: middle;
 }
 
-/* İlk sütun (extension name) için esnek genişlik */
 #extensions-table td:first-child {
-    width: 40%; /* Veya auto */
+    width: 40%;
     min-width: 250px;
 }
 
-/* Durum sütunu için sabit genişlik */
 #extensions-table td:nth-child(2) {
-    width: 100px; /* Veya auto */
+    width: 100px;
 }
 
-/* Versiyon sütunu için sabit genişlik */
 #extensions-table td:nth-child(3) {
-    width: 80px; /* Veya auto */
+    width: 80px;
 }
 
-/* Linkler sütunu için otomatik genişlik */
 #extensions-table td:last-child {
     width: auto;
     text-align: right;
@@ -148,7 +138,6 @@ h1 {
 	white-space: normal;
 }
 
-/* Uzun metinler için ellipsis efekti */
 .extension-name-cell {
     display: flex;
     align-items: center;
@@ -180,7 +169,6 @@ body.dark-theme #extensions-table tbody tr:nth-child(even) {
 }
 body.dark-theme .permissions-list { color: #95a5a6; }
 
-/* --- LİNKLER VE BUTONLAR (HATALAR DÜZELTİLDİ) --- */
 td.links { text-align: right; display: flex;}
 td.links a, td.links a:link, td.links a:visited {
     display: inline-block;
@@ -206,7 +194,6 @@ body.dark-theme td.links a:visited {
     color: var(--link-text-color);
 }
 
-/* --- TIKLANABİLİR SATIR VE AKTİF DURUM --- */
 .main-row {
     cursor: pointer;
 }
@@ -218,7 +205,6 @@ body.dark-theme td.links a:visited {
     font-weight: bold;
 }
 
-/* --- DETAY SATIRI STİLLERİ --- */
 .details-row {
     display: none;
     background-color: var(--bg-color);
@@ -306,13 +292,8 @@ body.dark-theme td.links a:visited {
     text-align: right !important;
 }
 
-/* ========================================= */
-/* --- RESPONSIVE TASARIM (MOBİL GÖRÜNÜM) --- */
-/* ========================================= */
-
 @media (max-width: 768px) {
 
-    /* ... (body, header, tablo sıfırlamaları aynı kalabilir) ... */
     body { margin: 0; width: 100%; }
     .header { padding: 10px 15px; }
     h1 {
@@ -327,14 +308,12 @@ body.dark-theme td.links a:visited {
     #extensions-table tr.details-row.visible { display: block; margin: -15px 15px 15px 15px; border: 1px solid var(--border-color); border-top: none; border-radius: 0 0 8px 8px; }
     #extensions-table tr.main-row.active { margin-bottom: 0; border-bottom-left-radius: 0; border-bottom-right-radius: 0; }
 
-    /* --- DÜZELTME: Hücre (td) ve Etiket (::before) Stilleri --- */
     #extensions-table td {
         display: flex;
         align-items: flex-start;
         padding: 12px 15px;
         border-bottom: 1px dashed var(--border-color);
         gap: 15px;
-        /* justify-content: space-between kaldırıldı */
     }
 
     #extensions-table tr.main-row td:last-child {
@@ -346,17 +325,14 @@ body.dark-theme td.links a:visited {
         font-weight: 600;
         color: var(--text-color);
         opacity: 0.8;
-        flex-shrink: 0; /* Etiketlerin küçülmesini engelle */
+        flex-shrink: 0;
     }
     
-    /* DÜZELTME: Değerlerin esnek büyümesini ve hizalanmasını sağla */
     #extensions-table td .value {
-        flex-grow: 1;           /* Kalan tüm boşluğu doldur */
-        text-align: right;      /* İçeriği kendi alanı içinde sağa hizala */
-        /* word-break kaldırıldı, böylece kelimeler bölünmez */
+        flex-grow: 1;
+        text-align: right;
     }
 
-    /* Özel hücre istisnaları */
     #extensions-table td.extension-name-cell {
         align-items: center;
         gap: 12px;
@@ -370,7 +346,6 @@ body.dark-theme td.links a:visited {
         gap: 8px;
     }
 
-    /* Detay alanı için stiller (Aynı kalabilir) */
     .details-row td { border: none; padding: 0; display: block; }
     .details-list { display: block; padding: 15px; }
     .details-list dt { font-weight: 600; opacity: 0.8; }
